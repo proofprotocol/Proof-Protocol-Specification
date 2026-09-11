@@ -170,7 +170,7 @@ Certification of a domain protocol's conformance to this specification — inclu
 
 ### GitHub Commit Anchor
 
-- Repository: `proofprotocol/Proof-Protocol-Specification` *(or wherever this is committed — currently the generic "Proof Protocol Specification" slot in the Specification Suite table points at the DKP repo; that link needs to be repointed here once this is committed)*
+- Repository: `proofprotocol/Proof-Protocol-Specification`
 - Commit timestamp: logged by GitHub at moment of push
 - Permanent archive: Zenodo DOI to be minted on next version publication
 
@@ -179,54 +179,12 @@ Certification of a domain protocol's conformance to this specification — inclu
 > ⚠️ **Do not fill this in from memory or reuse a prior pulse.** Retrieve a live pulse at https://beacon.nist.gov/beacon/2.0/pulse/last at the moment you're ready to commit this document, and paste the actual JSON response here — the same way every other PP-SPEC document does it. A fabricated or reused pulse value defeats the entire evidentiary purpose this section exists to serve.
 
 ```json
-{
-  "pulse" : {
-    "uri" : "https://beacon.nist.gov/beacon/2.0/chain/2/pulse/1936066",
-    "version" : "2.0",
-    "cipherSuite" : 0,
-    "period" : 60000,
-    "certificateId" : "87f27f431da3f584af6007fe045df13aaa81d831f335b6ee73f6334768f32d3ae10491e669b93a43e548b20370a6526c3def99643c25d8ad7bf5df95a3c2b45d",
-    "chainIndex" : 2,
-    "pulseIndex" : 1936066,
-    "timeStamp" : "2026-09-11T01:50:00.000Z",
-    "localRandomValue" : "2AF9EBF7E68FAB3624BA5177C09B848A9D099B12FDB303CDEE1979BA6783CAE0238A0EE4325A614B705DDD94DF9E5F7034A8FDBD7E21669E7A556A2675C0C9A1",
-    "external" : {
-      "sourceId" : "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-      "statusCode" : 0,
-      "value" : "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-    },
-    "listValues" : [ {
-      "uri" : "https://beacon.nist.gov/beacon/2.0/chain/2/pulse/1936065",
-      "type" : "previous",
-      "value" : "10C1179B2DEAA0CAE9A881363F6C802E542393B6D973122AB90E43C2C88EF560701A22CDF0CAF66316586D8150073A795C217547BD314088FE7821C454A8F0EA"
-    }, {
-      "uri" : "https://beacon.nist.gov/beacon/2.0/chain/2/pulse/1936023",
-      "type" : "hour",
-      "value" : "A6B4BC002C7D9D6EE670E0BA71CD29BC583EBAD9CFBF4EF823560A8F9C5F7CDC39CDED55203016C27E54E20E483BDF5E6749B7B06109924EB190898775BC7522"
-    }, {
-      "uri" : "https://beacon.nist.gov/beacon/2.0/chain/2/pulse/1935986",
-      "type" : "day",
-      "value" : "144252ABE0F724691F601EEFDF385ADA072228D82FA62B5062B610ECD20B0B70D7F355FA19A417831591696566337617BC2FBABDFB19BA0219C77BA3358B5C88"
-    }, {
-      "uri" : "https://beacon.nist.gov/beacon/2.0/chain/2/pulse/1921596",
-      "type" : "month",
-      "value" : "77EEA287E6D82ED376169156E6B5BCF8AA1D65E33806C13C79A6B180D9A833EACC2935FF7977C970D2436334ED923E8AEAEBB83362F0B6177CB08DD3A1F11AD3"
-    }, {
-      "uri" : "https://beacon.nist.gov/beacon/2.0/chain/2/pulse/1595005",
-      "type" : "year",
-      "value" : "A5FD82C3D2D3BD40D828416E16786CB12040BE747E0558CB834430D356760749B4DE671A660D6A4F16BBEBF1219A4376C14030F3D6A15CF26884B3244675159C"
-    } ],
-    "precommitmentValue" : "AD2E21A8102CE8F841AFC074F1D3730748A55AE76A1FEA82DB18D97080848B45E75DDCA6241C2DD6DC4ED6EECFD083505BDD7E238B7E1C63BB1A9E087A2D4C74",
-    "statusCode" : 0,
-    "signatureValue" : "4AD8B16C64D14662159D662A2AE2FE54D33D29B7240ACA43C6B1C5DF057F2FE88A9633937EF8DE409F9EB9E3B71EC6A6DE0CF245AD1F51E518B6928A58670258543675D3B3EE90BF4387784163EF51AC7D07BB2330E67A5D8D9A68F1E3E32E835BB460C70B3E89770BDEB5524566A133142C296F2F0C3ABF9F9E6BA09702991AB5732D02B567E7CC5A136275E9081EC91FC009B023312CD43D9E38E7A2E84DF48BDC83522C71945FFAD411D9DBAD9917D6AE6DA6526A7167DF689098326559836238F4122AF6253A980E392C33DAA31340A12311A3AECCD1A060516A4A69C968A95A7AB38CCF76D1441ABFA5632965422D1183DA09974FF7D62A25ABC054F921E1DB043A8B4AC0EE55EAF88FF8ABDE11240680CD15F6CCCBBBA381FE53073123C91297747220F07730786B5E429283A465A0D2632F2DD06A781A9DEDD5FA6019E44C0A5E84FAB011F336EBE035DE8743F3F1DAB36988DF8707C55A9BAE4FC645A43A81F5DA8D43B2AEABCE141FE58496CF180AD656EDD02DF4CA3809882F9A5556667DD8B183E2CDB202D22731F0AF9D2E9F544972A30B5AE85FE1F48D486D112E9E8119C3F87E0D4CB23DBAEFB88B793B2F88144447F14A6E0DFCB7998988BC8EA700205D06C0A617C93D1EFAABFE7A39DDDCA56CD2AE191216F6FAAA348286964E29AB064D67F8607EBCAC7C82FCA9E2B260DC5719DE1400EB07B6A3627AE6",
-    "outputValue" : "BAB4D5CF0426DB44F15E84C2BA1969F2CA49225F5BE93AE5C8B41BED1AA586EB8E0F37B7691A8F8F191A5F31CA9BE11E67D6A4DDA296922202DC179A6C09BD7C"
-  }
-}
+[PASTE LIVE NIST BEACON PULSE JSON HERE AT COMMIT TIME]
 ```
 
 ## Authorship
 
-This specification was authored solely by Craig Ellrod, Inventor of the Proof Economy, Founder and CEO of Nebulonium, Inc. (d/b/a HACKERverse), drawing on thirty years of professional practice in offensive cybersecurity, adversarial system evaluation, and technical standards development. No external party contributed to, reviewed, or approved this specification prior to publication.
+This specification was authored solely by Craig Ellrod, Founder and CEO of Nebulonium, Inc. (d/b/a HACKERverse), drawing on thirty years of professional practice in offensive cybersecurity, adversarial system evaluation, and technical standards development. No external party contributed to, reviewed, or approved this specification prior to publication.
 
 ---
 
