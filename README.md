@@ -18,7 +18,14 @@
 > Agents and humans do not trust agents. They trust proof.
 
 ---
+## Canonical Status
 
+Proof Protocol™ is the canonical standard for the Proof Economy™. It defines
+the domain-agnostic architecture that all conformant domain implementations —
+including DKP — are built against. Where any domain protocol's terminology
+or framing differs from this specification, this document is authoritative.
+
+---
 ## Scope and Relationship to Domain Protocols
 
 This specification defines the domain-agnostic architecture that any Proof Protocol-conformant domain implementation must satisfy. It does not itself specify how any particular domain — agentic AI security, financial risk, clinical research, or any other — produces proof. Domain protocols implement this specification's architecture against domain-specific evidence.
