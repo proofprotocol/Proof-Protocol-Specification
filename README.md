@@ -149,14 +149,17 @@ A domain protocol claiming conformance with this specification MUST:
 
 A domain protocol MAY define additional domain-specific schema, roles, and mechanics beyond this specification's scope, provided the above requirements are satisfied.
 
-## Section 11 - Relationship to POCI Conformance Levels
+## Section 11 – Structural Independence Requirements
 
-| POCI Level | Proof Protocol Mapping |
+Proof Protocol conformance is defined independently of any external
+framework's tiering:
+
+| Requirement | Proof Protocol Standard |
 |---|---|
-| Level 1: Self-Declared | Structurally excluded. A Valid Proof Event requires independent-witness attestation per Section 7. Self-declaration cannot satisfy structural independence. |
-| Level 2: Third-Party Assessed | Satisfied at T3–T4. Point-in-time, independently witnessed assessment. |
-| Level 3: Continuously Monitored | Satisfied by a Valid Proof Stream (Section 4) with per-AEU attestation in real time, live-queryable, continuously chained. |
-
+| Self-declared claims | Structurally excluded. A Valid Proof Event requires independent-witness attestation per Section 7. Self-declaration cannot satisfy structural independence. |
+| Point-in-time third-party assessment | Satisfied at T3–T4. Point-in-time, independently witnessed assessment. |
+| Continuous, real-time attestation | Satisfied by a Valid Proof Stream (Section 4) with per-AEU attestation in real time, live-queryable, continuously chained. |
+ 
 ## Section 12 - Prior Art and Category Provenance
 
 Craig Ellrod has been proving system and device behavior under defined test conditions since 2004. The System Under Test (SUT) and Device Under Test (DUT) methodology — documented in *Technical Marketing* (2004) — is the foundational prior art from which this specification's Atomic Execution Unit and pre-execution commitment architecture emerge.
