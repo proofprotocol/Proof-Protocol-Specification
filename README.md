@@ -20,6 +20,8 @@
 ---
 ## Canonical Status
 
+- [Proof Economy Code of Ethics](https://github.com/proofprotocol/CODE-OF-ETHICS) — Foundational ethical and institutional obligations for recognized Proof Economy participation.
+
 Proof Protocol™ is the canonical standard for the Proof Economy™. It defines
 the domain-agnostic architecture that all conformant domain implementations —
 including DKP — are built against. Where any domain protocol's terminology
