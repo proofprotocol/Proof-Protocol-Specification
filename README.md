@@ -34,6 +34,45 @@ This specification defines the domain-agnostic architecture that any Proof Proto
 
 Future domain protocols (financial risk and audit, AI safety and alignment, software supply chain, clinical research, and others identified in the Proof Economy™ Universal Framework) implement this same architecture against their own domain evidence and are peers to DKP, not subordinate to it.
 
+## Universal Extension Architecture
+
+Proof Protocol reserves the top-level field `extensions` as the standard extension point for machine-readable Proof Protocol objects.
+
+Specifications that define machine-readable artifacts, records, messages, API objects, attestations, metrics, or provenance objects MAY support this extension point. Specifications MAY impose stricter extension requirements for their own object types but MUST preserve the rules below.
+
+### Extension Rules
+
+1. Extensions MUST use a globally distinguishable namespace. Reverse-domain notation is RECOMMENDED where the publisher controls the corresponding domain, for example `com.vendor.product`.
+2. Extensions MAY add metadata, evidence references, measurements, implementation details, or domain-specific information.
+3. Extensions MUST NOT alter, replace, weaken, override, reinterpret, or suppress a normative Proof Protocol field, validity rule, formula, eligibility gate, cryptographic requirement, certification requirement, or conformance requirement.
+4. A conforming core implementation MUST be able to ignore an unknown extension and still evaluate the applicable core Proof Protocol semantics.
+5. Extension data MAY be used as evidence only when the governing specification permits it and the evidence independently satisfies the applicable validation requirements.
+6. An extension MUST NOT convert an otherwise non-conformant or invalid object into a conformant or valid one.
+7. Extension-specific validation MUST remain distinguishable from core Proof Protocol validation.
+8. Extension publishers SHOULD document namespace ownership, field semantics, versioning, and validation procedures.
+9. Core fields MUST NOT be duplicated inside an extension to provide conflicting or alternative values.
+
+Example:
+
+```json
+{
+  "extensions": {
+    "com.vendor.product": {
+      "telemetry_ref": "event-84721",
+      "custom_metric": 0.97
+    }
+  }
+}
+```
+
+The governing principle is:
+
+> **Extensions enrich Proof Protocol objects. They do not redefine Proof Protocol.**
+
+PP-SPEC-002 defines the corresponding rule for proof validity: an extension cannot change what `proof: true` means.
+
+---
+
 ## Changelog
 
 - v1.0 - original release. Extracted and formalized from the domain-agnostic architecture section of the Proof Economy™ Universal Framework (PE-SPEC-001 draft) to stand as its own citable, conformance-bearing specification.
