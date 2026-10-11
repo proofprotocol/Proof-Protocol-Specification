@@ -91,7 +91,7 @@ PP-SPEC-002 defines the corresponding rule for proof validity: an extension cann
 - [Section 8 - Ledger Anchoring](#section-8---ledger-anchoring)
 - [Section 9 - Cryptographic Integrity vs. Structural Independence](#section-9---cryptographic-integrity-vs-structural-independence)
 - [Section 10 - Conformance Requirements for Domain Protocols](#section-10---conformance-requirements-for-domain-protocols)
-- [Section 11 - Relationship to POCI Conformance Levels](#section-11---relationship-to-poci-conformance-levels)
+- [Section 11 - Structural Independence Requirements](#section-11---structural-independence-requirements)
 - [Section 12 - Prior Art and Category Provenance](#section-12---prior-art-and-category-provenance)
 - [Section 13 - Certification](#section-13---certification)
 
@@ -190,7 +190,7 @@ A domain protocol claiming conformance with this specification MUST:
 
 A domain protocol MAY define additional domain-specific schema, roles, and mechanics beyond this specification's scope, provided the above requirements are satisfied.
 
-## Section 11 – Structural Independence Requirements
+## Section 11 - Structural Independence Requirements
 
 Proof Protocol conformance is defined independently of any external
 framework's tiering:
