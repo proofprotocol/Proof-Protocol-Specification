@@ -7,7 +7,7 @@
 **Version:** 1.0 - Public Specification
 **Issued by:** HACKERverse® / Nebulonium, Inc.
 **Author:** Craig Ellrod, Founder & CEO
-**License:** Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
+**License:** Greater Good Commercial License 1.0 (GGL-C-1.0); text CC BY-ND 4.0 under Part S. See LICENSE.md.
 **Document ID:** PP-SPEC-001
 **Status:** Published
 **Maintained by:** Proof Economy™ Standards Alliance (PESA)
@@ -213,7 +213,7 @@ Craig Ellrod has been proving system and device behavior under defined test cond
 
 ## Section 13 - Certification
 
-This specification is published under Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0). Any party may implement, reference, or build upon it with attribution. The canonical text itself may not be redistributed in modified form, in order to preserve a single, unfragmented reference standard — this does not restrict the right to implement, build products against, or certify conformance to the architecture it defines.
+This specification is Licensed under the Greater Good Commercial License 1.0 (see LICENSE.md); text CC BY-ND 4.0 under its Part S. Original inventor: Craig Thomas Ellrod (ORCID 0009-0004-1058-7666).
 
 Certification of a domain protocol's conformance to this specification — including the right to carry the ProofStamp™ mark — is retained by Nebulonium, Inc., dba HACKERverse®. The protocol is open. The stamp is not.
 
