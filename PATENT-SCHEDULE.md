@@ -1,4 +1,4 @@
-# Patent Schedule (GGL Part P)
+# Patent Schedule (Proof Protocol License 1.0 Part P)
 
 Covered Work: PP-SPEC-001 · Proof Protocol™ Specification v1.0, version 1.0.0
 Schedule version: 1, published 2026-10-12
