@@ -5,7 +5,7 @@
 **Domain-Agnostic Architecture for Machine-Verifiable, Independently Witnessed Proof**
 
 **Version:** 1.0 - Public Specification
-**Issued by:** HACKERverse® / Nebulonium, Inc.
+**Issued by:** Craig Thomas Ellrod.
 **Author:** Craig Ellrod, Founder & CEO
 **License:** Proof Protocol License 1.0; text Apache License 2.0 under Part A. See LICENSE.md.
 **Document ID:** PP-SPEC-001
@@ -215,7 +215,7 @@ Craig Ellrod has been proving system and device behavior under defined test cond
 
 This specification is Licensed under the Proof Protocol License 1.0 (see LICENSE.md); text Apache License 2.0 under Part A. Original inventor: Craig Thomas Ellrod (ORCID 0009-0004-1058-7666).
 
-Certification of a domain protocol's conformance to this specification — including the right to carry the ProofStamp™ mark — is retained by Nebulonium, Inc., dba HACKERverse®. The protocol is open. The stamp is not.
+Certification of a domain protocol's conformance to this specification — including the right to carry the ProofStamp™ mark — is retained by Craig Thomas Ellrod. The protocol is open. The stamp is not.
 
 ## Anchoring and Verification
 
@@ -235,8 +235,8 @@ Certification of a domain protocol's conformance to this specification — inclu
 
 ## Authorship
 
-This specification was authored solely by Craig Ellrod, Founder and CEO of Nebulonium, Inc. (d/b/a HACKERverse), drawing on thirty years of professional practice in offensive cybersecurity, adversarial system evaluation, and technical standards development. No external party contributed to, reviewed, or approved this specification prior to publication.
+This specification was authored solely by Craig Ellrod, drawing on thirty years of professional practice in offensive cybersecurity, adversarial system evaluation, and technical standards development. No external party contributed to, reviewed, or approved this specification prior to publication.
 
 ---
 
-*This document may be freely shared, referenced, and built upon with attribution. Certification rights are retained by HACKERverse®.*
+*This document may be freely shared, referenced, and built upon with attribution. Certification rights are retained by Craig Thomas Ellrod.*
