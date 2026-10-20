@@ -1,4 +1,4 @@
-> **Zenodo DOI:** [10.5281/zenodo.21379780](https://doi.org/10.5281/zenodo.21379780) — pending re-publication under this scope
+> **Zenodo DOI:** [10.5281/zenodo.21379780](https://doi.org/10.5281/zenodo.21379780) - pending re-publication under this scope
 
 # PP-SPEC-001 · Proof Protocol™ Specification v1.0
 
@@ -20,19 +20,19 @@
 ---
 ## Canonical Status
 
-- [Proof Economy Code of Ethics](https://github.com/proofprotocol/CODE-OF-ETHICS) — Foundational ethical and institutional obligations for recognized Proof Economy participation.
+- [Proof Economy Code of Ethics](https://github.com/proofprotocol/CODE-OF-ETHICS) - Foundational ethical and institutional obligations for recognized Proof Economy participation.
 
 Proof Protocol™ is the canonical standard for the Proof Economy™. It defines
-the domain-agnostic architecture that all conformant domain implementations —
-including DKP — are built against. Where any domain protocol's terminology
+the domain-agnostic architecture that all conformant domain implementations -
+including DKP - are built against. Where any domain protocol's terminology
 or framing differs from this specification, this document is authoritative.
 
 ---
 ## Scope and Relationship to Domain Protocols
 
-This specification defines the domain-agnostic architecture that any Proof Protocol-conformant domain implementation must satisfy. It does not itself specify how any particular domain — agentic AI security, financial risk, clinical research, or any other — produces proof. Domain protocols implement this specification's architecture against domain-specific evidence.
+This specification defines the domain-agnostic architecture that any Proof Protocol-conformant domain implementation must satisfy. It does not itself specify how any particular domain - agentic AI security, financial risk, clinical research, or any other - produces proof. Domain protocols implement this specification's architecture against domain-specific evidence.
 
-**DKP (Defensible Knowledge Proof)** — cryptographic proof for agentic AI and cybersecurity execution — is the reference implementation of this specification. DKP-SPEC-001 defines DKP's domain-specific schema, roles, and mechanics. Where this document and DKP-SPEC-001 differ in domain-agnostic terminology, this document is authoritative; DKP-SPEC-001's domain-specific extensions govern within their own scope.
+**DKP (Defensible Knowledge Proof)** - cryptographic proof for agentic AI and cybersecurity execution - is the reference implementation of this specification. DKP-SPEC-001 defines DKP's domain-specific schema, roles, and mechanics. Where this document and DKP-SPEC-001 differ in domain-agnostic terminology, this document is authoritative; DKP-SPEC-001's domain-specific extensions govern within their own scope.
 
 Future domain protocols (financial risk and audit, AI safety and alignment, software supply chain, clinical research, and others identified in the Proof Economy™ Universal Framework) implement this same architecture against their own domain evidence and are peers to DKP, not subordinate to it.
 
@@ -107,7 +107,7 @@ Every vendor, system, and AI agent attests to the efficacy of its own behavior. 
 
 This is the Self-Attestation Problem: the party with the greatest interest in a favorable outcome is the sole author of the evidence for that outcome.
 
-The problem is structurally worse for autonomous AI agents than for human-operated systems. An agent can generate plausible, internally consistent, cryptographically sealable records of events that never occurred — at machine speed, without human authorship, without detectable markers of fabrication, and without any party outside the agent's trust boundary being aware that fabrication has taken place. Cryptographic sealing authenticates the seal. It does not authenticate what is underneath it.
+The problem is structurally worse for autonomous AI agents than for human-operated systems. An agent can generate plausible, internally consistent, cryptographically sealable records of events that never occurred - at machine speed, without human authorship, without detectable markers of fabrication, and without any party outside the agent's trust boundary being aware that fabrication has taken place. Cryptographic sealing authenticates the seal. It does not authenticate what is underneath it.
 
 ## Section 3 - The Valid Proof Test
 
@@ -115,7 +115,7 @@ A record satisfies the **Valid Proof Test** if and only if it was originated by 
 
 **Structural independence** means the witness sits outside the monitored system's trust boundary: it has no administrative authority over, and did not participate in constructing, the execution being witnessed.
 
-A record that fails the Valid Proof Test — however cryptographically signed, hashed, or sealed — is an **attestation**, not a **proof**. Attestation is a declaration. Proof is evidence originated outside the interested party's control. The distinction is structural, not a matter of degree.
+A record that fails the Valid Proof Test - however cryptographically signed, hashed, or sealed - is an **attestation**, not a **proof**. Attestation is a declaration. Proof is evidence originated outside the interested party's control. The distinction is structural, not a matter of degree.
 
 ## Section 4 - Definitions
 
@@ -148,16 +148,16 @@ A claim is only valid against a Sealed (T5) Proof Record. A Proof Record that ha
 
 Before any execution begins, the parameters of that execution are committed to an independent, publicly verifiable randomness or timestamp source. This eliminates retroactive modification: the record of what was intended to happen exists before the outcome is known, and cannot be authored after the fact to match whatever actually occurred.
 
-The reference implementation anchors to the NIST Randomness Beacon — federal infrastructure operated by the National Institute of Standards and Technology, publishing a new cryptographically signed random value at fixed intervals. A commitment referencing a Beacon pulse cannot have been constructed before that pulse was published, which makes the commitment's timing independently verifiable by any party.
+The reference implementation anchors to the NIST Randomness Beacon - federal infrastructure operated by the National Institute of Standards and Technology, publishing a new cryptographically signed random value at fixed intervals. A commitment referencing a Beacon pulse cannot have been constructed before that pulse was published, which makes the commitment's timing independently verifiable by any party.
 
 ## Section 7 - Independent Witnessing
 
 A witness satisfies the structural independence requirement of Section 3 only if all of the following hold:
 
-- **Operational independence** — the witness is operated by a party with no financial or reputational interest in the proof outcome.
-- **Infrastructure independence** — the witness runs on infrastructure the monitored system cannot access, modify, or terminate.
-- **Epistemic independence** — the witness has no knowledge of the monitored system's intended outcome before execution.
-- **Instructional independence** — the witness operates under instructions authored before the proof event that the monitored system cannot modify.
+- **Operational independence** - the witness is operated by a party with no financial or reputational interest in the proof outcome.
+- **Infrastructure independence** - the witness runs on infrastructure the monitored system cannot access, modify, or terminate.
+- **Epistemic independence** - the witness has no knowledge of the monitored system's intended outcome before execution.
+- **Instructional independence** - the witness operates under instructions authored before the proof event that the monitored system cannot modify.
 
 Failure of operational or infrastructure independence is a permanent disqualification for that witness. Failure of epistemic or instructional independence is remediable by resetting with a new pre-execution commitment.
 
@@ -203,19 +203,20 @@ framework's tiering:
  
 ## Section 12 - Prior Art and Category Provenance
 
-Craig Ellrod has been proving system and device behavior under defined test conditions since 2004. The System Under Test (SUT) and Device Under Test (DUT) methodology — documented in *Technical Marketing* (2004) — is the foundational prior art from which this specification's Atomic Execution Unit and pre-execution commitment architecture emerge.
+Craig Ellrod has been proving system and device behavior under defined test conditions since 2004. The System Under Test (SUT) and Device Under Test (DUT) methodology - documented in *Technical Marketing* (2008) - is the foundational prior art from which this specification's Atomic Execution Unit and pre-execution commitment architecture emerge.
 
-- **2004:** SUT/DUT test methodology developed and documented.
-- **2004–2025:** Thirty-plus years of adversarial validation practice across Cisco, Armor Defense, JupiterOne, and Cequence Security.
-- **May 2025:** HACKERverse® formalizes the Proof Economy™ category and the Continuous Adversarial Evaluation™ (CAE) category.
-- **March 24, 2026:** Gartner releases the Adversarial Exposure Validation (AEV) category — approximately ten months after Proof Economy™ and CAE coinage.
+- **2004:** SUT/DUT test methodology developed (documented in *Technical Marketing*, 2008).
+- **2004–2025:** Twenty-plus years of adversarial validation practice across Cisco, Armor Defense, JupiterOne, and Cequence Security.
+- **2022 to 2023:** Control-present versus control-absent testing committed on 18 January 2022 (surfd4wg/kali, now public), and live red-team evaluations of vendor products replacing scripted demos at the World Hacker Games (2023). Dated evidence: https://github.com/proofprotocol/PROOF-OF-EFFICACY-LINEAGE-PUBLIC
+- **18 and 25 September 2025:** HACKERverse® first publishes the CAE category (18 September) and the Proof Economy™ category (25 September), both captured by the Internet Archive on 6 October 2025.
+- **March 24, 2026:** Gartner releases the Adversarial Exposure Validation (AEV) category - approximately six months after CAE and the Proof Economy™ were first published.
 - **2026:** DKP published as the reference domain implementation of this specification (see DKP-SPEC-001).
 
 ## Section 13 - Certification
 
 This specification is Licensed under the Proof Protocol License 1.0 (see LICENSE.md); text Apache License 2.0 under Part A. Original inventor: Craig Thomas Ellrod (ORCID 0009-0004-1058-7666).
 
-Certification of a domain protocol's conformance to this specification — including the right to carry the ProofStamp™ mark — is retained by Craig Thomas Ellrod. The protocol is open. The stamp is not.
+Certification of a domain protocol's conformance to this specification - including the right to carry the ProofStamp™ mark - is retained by Craig Thomas Ellrod. The protocol is open. The stamp is not.
 
 ## Anchoring and Verification
 
@@ -227,7 +228,7 @@ Certification of a domain protocol's conformance to this specification — inclu
 
 ### NIST Randomness Beacon Anchor
 
-> ⚠️ **Do not fill this in from memory or reuse a prior pulse.** Retrieve a live pulse at https://beacon.nist.gov/beacon/2.0/pulse/last at the moment you're ready to commit this document, and paste the actual JSON response here — the same way every other PP-SPEC document does it. A fabricated or reused pulse value defeats the entire evidentiary purpose this section exists to serve.
+> ⚠️ **Do not fill this in from memory or reuse a prior pulse.** Retrieve a live pulse at https://beacon.nist.gov/beacon/2.0/pulse/last at the moment you're ready to commit this document, and paste the actual JSON response here - the same way every other PP-SPEC document does it. A fabricated or reused pulse value defeats the entire evidentiary purpose this section exists to serve.
 
 ```json
 [PASTE LIVE NIST BEACON PULSE JSON HERE AT COMMIT TIME]
