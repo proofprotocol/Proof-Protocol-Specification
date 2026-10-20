@@ -1,7 +1,7 @@
 # Acknowledgements
 
 Work: PP-SPEC-001 · Proof Protocol™ Specification v1.0
-Licensor: Nebulonium, Inc., dba HACKERverse (Proof Protocol)
+Licensor: Craig Thomas Ellrod (Proof Protocol)
 
 [ACKNOWLEDGED]
 None
